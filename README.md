@@ -8,24 +8,28 @@
 ## Install
 
 ```sh
-npm install  npm run dev
+npm install  
+npm start
 ```
 
-## Usage
+## build for production
 
 ```sh
+npm run build  
+```
+## development
+
+```sh
+npm install  
 npm run dev
 ```
 
 ## Author
 
-👤 **smartdev1206**
+👤 **robert-upwork**
 
-* Github: [@smartdev1206](https://github.com/smartdev1206)
+* Github: [@smartdev1206](https://github.com/robert-upwork)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
