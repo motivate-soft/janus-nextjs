@@ -23,13 +23,6 @@ npm run build
 npm install  
 npm run dev
 ```
-
-## Author
-
-👤 **robert-upwork**
-
-* Github: [@smartdev1206](https://github.com/robert-upwork)
-
 ## Show your support
 
 Give a ⭐️ if this project helped you!
