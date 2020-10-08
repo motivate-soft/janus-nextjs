@@ -1,0 +1,90 @@
+@import "./variables";
+
+.btn-green {
+  background-color: #fff;
+  font-family: Roboto-Medium;
+  color: $color-darkblue;
+  background-color: $color-green;
+  border: 1px solid transparent;
+}
+
+.btn-blue {
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: Roboto-Medium;
+}
+
+.btn-white {
+  border: 1px solid transparent;
+  font-family: Roboto-Medium;
+  color: $color-darkblue;
+  background-color: #fff;
+}
+
+.tooltip-btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #858585;
+  background-color: $color-gray;
+  cursor: pointer;
+}
+
+.tick-circle-icon {
+  svg {
+    width: 17px;
+    height: 17px;
+
+  }
+}
+
+.arrow-icon {
+  margin-right: 30px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: $color-green;
+  svg {
+    margin: 5px 6px;
+    width: 16px !important;
+    height: 18px !important;
+    path {
+      fill: #fff;
+    }
+  }
+  &.selected {
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.appstore-icons-box {
+  svg {
+    width: 185px;
+    height: 55px;
+    &:first-child {
+      margin-right: 10px;
+    }
+  }
+}
+
+.tooltip {
+  .tooltip-inner {
+    ul {
+      text-align: left !important;
+    }
+    p {
+      white-space: pre-line;
+      text-align: left;
+    }
+  }
+}
+
+

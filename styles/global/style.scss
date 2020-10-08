@@ -1,0 +1,48 @@
+// @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins/_breakpoints";
+@import "~bootstrap/scss/bootstrap";
+// @import url(http://fonts.googleapis.com/css?family=Rubik+Regular:300regular);
+@import "./typo";
+@import "./components";
+@import "./layout";
+@import "./variables";
+@import "pages/home";
+@import "pages/login";
+@import "pages/terms";
+
+html {
+  //scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto Regular, Rubik Regular;
+}
+
+.container {
+  @media (min-width: 1200px) {
+    max-width: 1176px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.form-control {
+  &:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+}
+
+button {
+  &:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+  &::-moz-focus-inner {
+    border: 0;
+  }
+}
+
+

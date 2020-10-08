@@ -1,0 +1,59 @@
+@mixin font($font-family, $font-file, $font-weight) {
+  @font-face {
+    font-family: $font-family;
+    // src: url($font-file + ".eot");
+    // src: url($font-file + ".eot?#iefix") format("embedded-opentype"), url($font-file + ".woff") format("woff"),
+    //     url($font-file + ".ttf") format("truetype"), url($font-file + ".svg#" + $font-family) format("svg");
+    src: url($font-file + ".ttf") format("truetype");
+    font-weight: $font-weight;
+    font-style: normal;
+  }
+}
+
+@include font("Roboto-Thin", "/fonts/Roboto/Roboto-Thin", 100);
+@include font("Roboto-ThinItalic", "/fonts/Roboto/Roboto-ThinItalic", 100);
+@include font("Roboto-Light", "/fonts/Roboto/Roboto-Light", 300);
+@include font("Roboto-LightItalic", "/fonts/Roboto/Roboto-LightItalic", 300);
+@include font("Roboto-Regular", "/fonts/Roboto/Roboto-Regular", 400);
+@include font("Roboto-Italic", "/fonts/Roboto/Roboto-Italic", 400);
+@include font("Roboto-Medium", "/fonts/Roboto/Roboto-Medium", 500);
+@include font("Roboto-MediumItalic", "/fonts/Roboto/Roboto-MediumItalic", 500);
+@include font("Roboto-Bold", "/fonts/Roboto/Roboto-Bold", bold);
+@include font("Roboto-BoldItalic", "/fonts/Roboto/Roboto-BoldItalic", bold);
+
+@include font("Rubik-Thin", "/fonts/Rubik/Rubik-Thin", 100);
+@include font("Rubik-ThinItalic", "/fonts/Rubik/Rubik-ThinItalic", 100);
+@include font("Rubik-Light", "/fonts/Rubik/Rubik-Light", 300);
+@include font("Rubik-LightItalic", "/fonts/Rubik/Rubik-LightItalic", 300);
+@include font("Rubik-Regular", "/fonts/Rubik/Rubik-Regular", 400);
+@include font("Rubik-Italic", "/fonts/Rubik/Rubik-Italic", 400);
+@include font("Rubik-Medium", "/fonts/Rubik/Rubik-Medium", 500);
+@include font("Rubik-MediumItalic", "/fonts/Rubik/Rubik-MediumItalic", 500);
+@include font("Rubik-Bold", "/fonts/Rubik/Rubik-Bold", bold);
+@include font("Rubik-BoldItalic", "/fonts/Rubik/Rubik-BoldItalic", bold);
+
+@import "./variables";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Rubik-Regular;
+}
+
+p {
+  font-family: Rubik-Regular;
+}
+
+.block-title {
+  text-align: center;
+  font-family: Rubik-Regular;
+  font-size: 36px;
+  color: $color-darkblue;
+  text-transform: uppercase;
+  @media screen and (max-width: 992px) {
+    font-size: 28px;
+  }
+}
