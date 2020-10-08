@@ -11,8 +11,10 @@ export default function TooltipButton({texts, place}) {
             <div
                 ref={target}
                 className="tooltip-btn-box"
-                onClick={() => setShow(!show)}
-                >
+                // onClick={() => setShow(!show)}
+                onMouseEnter={() => setShow(!show)}
+                onMouseLeave={() => setShow(!show)}
+            >
                 ?
             </div>
             <Overlay target={target.current} show={show} placement={place !== undefined ? place : 'right'}>
@@ -28,7 +30,6 @@ export default function TooltipButton({texts, place}) {
                                 : <p>{texts}</p>
 
                         }
-
                     </Tooltip>
                 )}
             </Overlay>
