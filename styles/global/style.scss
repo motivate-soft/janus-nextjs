@@ -3,7 +3,6 @@
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins/_breakpoints";
 @import "~bootstrap/scss/bootstrap";
-// @import url(http://fonts.googleapis.com/css?family=Rubik+Regular:300regular);
 @import "./typo";
 @import "./components";
 @import "./layout";
@@ -13,11 +12,11 @@
 @import "pages/terms";
 
 html {
-  //scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: Roboto Regular, Rubik Regular;
+  font-family: Roboto Regular, Rubik Regular, sans-serif;
 }
 
 .container {

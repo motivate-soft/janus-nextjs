@@ -1,8 +1,7 @@
 @import "./variables";
 
 .btn-green {
-  background-color: #fff;
-  font-family: Roboto-Medium;
+  font-family: Roboto-Medium, sans-serif;
   color: $color-darkblue;
   background-color: $color-green;
   border: 1px solid transparent;
@@ -11,12 +10,12 @@
 .btn-blue {
   border: 1px solid #fff;
   color: #fff;
-  font-family: Roboto-Medium;
+  font-family: Roboto-Medium, sans-serif;
 }
 
 .btn-white {
   border: 1px solid transparent;
-  font-family: Roboto-Medium;
+  font-family: Roboto-Medium, sans-serif;
   color: $color-darkblue;
   background-color: #fff;
 }

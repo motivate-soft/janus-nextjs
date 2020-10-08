@@ -21,16 +21,16 @@
 @include font("Roboto-Bold", "/fonts/Roboto/Roboto-Bold", bold);
 @include font("Roboto-BoldItalic", "/fonts/Roboto/Roboto-BoldItalic", bold);
 
-@include font("Rubik-Thin", "/fonts/Rubik/Rubik-Thin", 100);
-@include font("Rubik-ThinItalic", "/fonts/Rubik/Rubik-ThinItalic", 100);
 @include font("Rubik-Light", "/fonts/Rubik/Rubik-Light", 300);
 @include font("Rubik-LightItalic", "/fonts/Rubik/Rubik-LightItalic", 300);
 @include font("Rubik-Regular", "/fonts/Rubik/Rubik-Regular", 400);
 @include font("Rubik-Italic", "/fonts/Rubik/Rubik-Italic", 400);
 @include font("Rubik-Medium", "/fonts/Rubik/Rubik-Medium", 500);
 @include font("Rubik-MediumItalic", "/fonts/Rubik/Rubik-MediumItalic", 500);
-@include font("Rubik-Bold", "/fonts/Rubik/Rubik-Bold", bold);
-@include font("Rubik-BoldItalic", "/fonts/Rubik/Rubik-BoldItalic", bold);
+@include font("Rubik-Medium", "/fonts/Rubik/Rubik-SemiBold", 600);
+@include font("Rubik-MediumItalic", "/fonts/Rubik/Rubik-SemiBoldItalic", 500);
+@include font("Rubik-Bold", "/fonts/Rubik/Rubik-Bold", 700);
+@include font("Rubik-BoldItalic", "/fonts/Rubik/Rubik-BoldItalic", 700);
 
 @import "./variables";
 
@@ -40,16 +40,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Rubik-Regular;
+  font-family: Rubik-Regular, sans-serif;
 }
 
 p {
-  font-family: Rubik-Regular;
+  font-family: Rubik-Regular, sans-serif;
 }
 
 .block-title {
   text-align: center;
-  font-family: Rubik-Regular;
   font-size: 36px;
   color: $color-darkblue;
   text-transform: uppercase;

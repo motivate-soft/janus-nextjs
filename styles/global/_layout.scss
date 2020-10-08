@@ -20,7 +20,7 @@
           .nav-link {
             position: relative;
             font-size: 15px;
-            font-family: Rubik-Regular !important;
+            font-family: Rubik-Regular, sans-serif !important;
             color: #fff !important;
             text-transform: uppercase;
             &:after {
@@ -82,7 +82,7 @@
             padding: 6px;
             max-width: 165px;
             font-size: 15px;
-            font-family: Rubik-Light;
+            font-family: Rubik-Light, sans-serif;
             color: #fff;
             background-color: transparent;
             border: none;
@@ -91,7 +91,7 @@
             &::placeholder {
               color: #fff;
               font-size: 15px;
-              font-family: Rubik-LightItalic;
+              font-family: Rubik-LightItalic, sans-serif;
             }
           }
           button {
