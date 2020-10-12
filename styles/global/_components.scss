@@ -30,16 +30,18 @@
   font-size: 20px;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #858585;
-  background-color: $color-gray;
+  border: 1px solid $color-green;
+  background-color: $color-green;
   cursor: pointer;
+  span {
+    line-height: 1 !important;
+  }
 }
 
 .tick-circle-icon {
   svg {
     width: 17px;
     height: 17px;
-
   }
 }
 
@@ -85,5 +87,3 @@
     }
   }
 }
-
-

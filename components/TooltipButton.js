@@ -15,7 +15,7 @@ export default function TooltipButton({texts, place}) {
                 onMouseEnter={() => setShow(!show)}
                 onMouseLeave={() => setShow(!show)}
             >
-                ?
+                <span>?</span>
             </div>
             <Overlay target={target.current} show={show} placement={place !== undefined ? place : 'right'}>
                 {(props) => (

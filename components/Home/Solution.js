@@ -18,7 +18,7 @@ export default function Solution() {
                     <p>Lorem ipsum dolor sit amet ipsum dolor sit amet</p>
                     <p>Lorem ipsum dolor sit amet ipsum dolor sit amet</p>
                     <button className="btn btn-green mb-4">Start My Trial</button>
-                    <button className="btn btn-white mb-4">Plans & Pricing</button>
+                    <button className="btn btn-white mb-4">Pricing</button>
                 </div>
             </Container>
         </div>

@@ -144,13 +144,15 @@ export default function Pricing() {
                 countSelectedServices += 1
             }
         })
+        // No of Business Admins x 10 + (No of Sites x ( ( No of Site Admins -1 + No of selected services) * 10) )
+
         totalPrice = countbusinessadmin * 10 + (countsites * ((countsiteadmin - 1 + countSelectedServices) * 10))
         settotal(totalPrice)
     })
 
     return (
         <div id="pricing" className="pricing-block">
-            <h2 className="block-title">Plans and Pricing</h2>
+            <h2 className="block-title">Pricing</h2>
             <Container>
                 <div className="pricing-card">
                     <div className="pricing-input-box">

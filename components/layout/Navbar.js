@@ -62,7 +62,6 @@ export default function TopNavbar() {
                             <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="/#features">Features</Nav.Link>
                             <Nav.Link href="/#pricing">Pricing</Nav.Link>
-                            <Nav.Link href="/#service">Service</Nav.Link>
                         </Nav>
                         <div>
                             <button className="btn btn-blue"><Link href="/login">Login</Link></button>
